@@ -1,0 +1,1641 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+
+.navbar-nav li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.container-fluid {
+    display: flex;
+    justify-items: center;
+    padding: 25px 0 25px 35px;
+    background-color: #49443c;
+    border-top: 0px;
+}
+
+.container-fluid ul li a {
+    display: flex;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.container-fluid ul li a:hover {
+    color: rgb(102, 198, 239);
+}
+
+.container-fluid li ul {
+    display: flex;
+
+}
+
+
+
+
+/* PAGINA PRINCIPAL */
+
+.main_website {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-image: url(../img/silueta-ramas-arboles-secos_39704-3393.webp);
+    background-repeat: no-repeat;
+    background-size: 1460px 820px;
+    color: #6f534f;
+}
+
+.main_website_title {
+    font-size: 70px;
+}
+
+.main_website_description {
+    font-size: 30px;
+    width: 70%;
+}
+
+.Description_web_pag2 {
+    background-color: #629ccf;
+    height: 37.5em;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+
+}
+
+.Description_web_pag2 h3 {
+    margin: 30px;
+}
+
+.texto {
+    font-size: 20px;
+    background: #a08d8a;
+    background: linear-gradient(180deg, #a08d8a 29%, rgba(255, 255, 255, 1) 58%);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Main_productos_imagen {
+    margin-left: 10px;
+}
+
+
+
+
+/* PAGINA QUIENES SOMOS */
+.fondo_quienesomos {
+    background: rgb(179, 177, 147);
+    background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+    color: black;
+}
+
+.container_quienessomos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container_titulo h1 {
+    font-size: 3rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.container_quienessomos p {
+    font-size: 1.3rem;
+}
+
+.parrafo2 {
+    font-size: 1.3rem;
+    color: #130f0f;
+    background-color: #f5dbd7;
+    margin: 10px;
+
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+
+}
+
+
+
+
+/* PAGINA TALLER */
+.main_taller {
+    background: rgb(179, 177, 147);
+    background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+
+}
+
+.main_taller_informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(179, 177, 147);
+    background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+    color: #0e1102;
+}
+
+.main_talleres_titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.main_taller_descripcion {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.Conteiner_carousel {
+    display: flex;
+    justify-content: center;
+    background-repeat: none;
+    margin-left: 5px;
+    width: 400px;
+}
+
+.Calendario {
+    background: rgb(179, 177, 147);
+    background: linear-gradient(360deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+    color: #0a141d;
+    padding: 10px;
+}
+
+.calendario_titulo {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.Calendario_horarios_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.Calendario_horarios_1 u {
+    color: rgb(191, 35, 35);
+
+}
+
+.Calendario_horarios_1 a i {
+    color: rgb(136, 31, 31);
+    margin-right: 10px;
+}
+
+.Calendario_horarios_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.Calendario_horarios_2 u {
+    color: rgb(191, 35, 35);
+
+}
+
+.Calendario_horarios_2 a i {
+    color: rgb(136, 31, 31);
+    margin-right: 10px;
+}
+
+.Calendario_horarios_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.Calendario_horarios_3 u {
+    color: rgb(191, 35, 35);
+
+}
+
+.Calendario_horarios_3 a i {
+    color: rgb(136, 31, 31);
+    margin-right: 10px;
+}
+
+.Calendario_horarios_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.Calendario_horarios_4 u {
+    color: rgb(191, 35, 35);
+
+}
+
+.Calendario_horarios_4 a i {
+    color: rgb(136, 31, 31);
+    margin-right: 10px;
+}
+
+.Calendario_horarios_5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.Calendario_horarios_5 u {
+    color: rgb(191, 35, 35);
+
+}
+
+.Calendario_horarios_5 a i {
+    color: rgb(136, 31, 31);
+    margin-right: 10px;
+}
+
+/* PAGINA CONTACTO*/
+
+.fondo_support {
+    background: rgb(179, 177, 147);
+    background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+}
+
+.main_support {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #0a141d;
+}
+
+.main_support_form h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_support_form p {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+
+.main_support_form a {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    margin-bottom: 16px;
+    color: rgb(135, 43, 7);
+    font-weight: 700;
+}
+
+.main_support_form a i {
+    color: rgb(15, 88, 43);
+    margin-right: 10px;
+}
+
+.mapa {
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    margin-left: 25px;
+
+}
+
+.main_support_form form .campo,
+textarea {
+
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #22231E;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 10px;
+}
+
+.campo_textarea {}
+
+.btn1 {
+    padding: 15px;
+    margin: 20px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: rgb(199, 50, 12);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all;
+}
+
+
+/* FOOTER*/
+
+.pie_pagina {
+    background-color: #49443c;
+
+}
+
+.pie_pagina .group_1 {
+    margin: 10px;
+    display: FLEX;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.pie_pagina .group_1 .box figure {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.pie_pagina .group_1 .box figure img {
+    width: 250px;
+}
+
+.pie_pagina .group_1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie_pagina .group_1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie_pagina .group_1 .Red_social i {
+    display: inline-block;
+    text direction: none;
+    width: 25px;
+    height: 25px;
+    line height: 25px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #49443c;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+.pie_pagina .group_1 .Red_social i:hover {
+    color: rgb(94, 195, 197);
+}
+
+.pie_pagina .group_2 {
+    background-color: #49443c;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.pie_pagina .group_2 small {
+    font-size: 15px;
+}
+
+/* PAGINA VELAS */
+
+
+
+.fondo_velas {
+    background: rgb(179, 177, 147);
+
+
+}
+
+.contenedor_velas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.velas_titulo {
+    font-size: 50px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #121416;
+}
+
+.producto_caracola {
+    background-color: #d5cbc9;
+    margin: 10px;
+
+}
+
+.producto_caracola:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+
+}
+
+.producto_bubble {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+
+.producto_bubble:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+
+}
+
+
+.producto_minimal {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+
+.producto_minimal:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.contenedor_velas h3 {
+    display: flex;
+    justify-content: center;
+    color: #0a141d;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.contenedor_velas p {
+    display: flex;
+    justify-content: space-around;
+    color: #0a141d;
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+.contenedor_velas2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.producto_bajodelmar {
+    background-color: #d5cbc9;
+    margin-top: 10px;
+}
+
+.producto_bajodelmar:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_budha {
+    background-color: #d5cbc9;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.producto_budha:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+
+}
+
+.producto_glaciar {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_glaciar:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+
+}
+
+.contenedor_velas2 h3 {
+    display: flex;
+    justify-content: center;
+    color: #0a141d;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.contenedor_velas2 p {
+    display: flex;
+    justify-content: space-around;
+    color: #0a141d;
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+.contenedor_velas3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.producto_huevo {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_huevo:hover {
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_madera {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_madera:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_elefante {
+    background-color: #d5cbc9;
+    margin: 10px;
+
+}
+
+.producto_elefante:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.contenedor_velas3 h3 {
+    display: flex;
+    justify-content: center;
+    color: #0a141d;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.contenedor_velas3 p {
+    display: flex;
+    justify-content: space-around;
+    color: #0a141d;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.contenedor_velas4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_velas4 h3 {
+    display: flex;
+    justify-content: center;
+    color: #0a141d;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contenedor_velas4 p {
+    display: flex;
+    justify-content: space-around;
+    color: #0a141d;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.producto_lights {
+    background-color: #d5cbc9;
+    margin: 10px;
+
+}
+
+.producto_lights:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_hojas {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_hojas:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_green {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+
+.producto_hojas:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.contenedor_velas5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_velas5 h3 {
+    display: flex;
+    justify-content: center;
+    color: #0a141d;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contenedor_velas5 p {
+    display: flex;
+    justify-content: space-around;
+    color: #0a141d;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.producto_nature {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_nature:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_forest {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_forest:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.producto_white {
+    background-color: #d5cbc9;
+    margin: 10px;
+}
+
+.producto_white:hover {
+    background-color: #93a08a;
+    transform: scale(1.2);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+@media (min-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+
+
+    /* HEADER */
+
+    .navbar-nav li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-items: end;
+        padding: 25px 0 25px 35px;
+        background-color: #49443c;
+        border-top: 0px;
+
+    }
+
+    .container-fluid ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+    }
+
+    .container-fluid ul li a:hover {
+        color: rgb(102, 198, 239);
+    }
+
+    .container-fluid li ul {
+        display: none;
+
+    }
+
+
+
+
+    /* PAGINA PRINCIPAL */
+
+    .main_website {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        background-image: url(../img/silueta-ramas-arboles-secos_39704-3393.webp);
+        background-repeat: no-repeat;
+        background-size: 1460px 820px;
+        color: #49443c;
+    }
+
+    .main_website_title {
+        font-size: 60px;
+
+    }
+
+    .main_website_description {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .Description_web_pag2 {
+        width: 100%;
+        max-width: 75em;
+        background-color: #aec0d0;
+        height: 37.5em;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .Main_productos_conteiner {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: 300px;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 20px 20px;
+        grid-auto-flow: row;
+        justify-content: space-between;
+        justify-items: start;
+        align-items: center;
+        margin-top: 6.25em;
+        grid-template-areas:
+            "texto video";
+    }
+
+    .texto {
+        font-size: 20px;
+        width: 28em;
+        height: 28em;
+        padding: 90px;
+        background: #a08d8a;
+        background: linear-gradient(180deg, #a08d8a 29%, rgba(255, 255, 255, 1) 58%);
+        margin-top: 6.25em;
+        margin-right: 180px;
+        margin-left: 50px;
+    }
+
+    .texto p {
+        display: flex;
+        text-align: center;
+
+    }
+
+    .Main_productos_imagen {
+        width: 20em;
+        justify-self: center;
+        animation-name: slow;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 10s;
+        opacity: 1;
+        margin-top: 30px;
+    }
+
+
+
+
+    /* PAGINA QUIENES SOMOS */
+    .fondo_quienesomos {
+
+        background: rgb(179, 177, 147);
+        background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+        color: black;
+    }
+
+    .container_quienessomos {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+
+    .container_titulo h1 {
+        font-size: 3rem;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .container_quienessomos p {
+        font-size: 1.3rem;
+
+
+    }
+
+    .parrafo2 {
+        font-size: 1.3rem;
+        color: #390808;
+        background-color: #a08d8a;
+        margin: 10px;
+
+    }
+
+    .imagen {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagen_quienessomos {
+        width: 400px;
+        height: 300px;
+        background-repeat: no repeat;
+    }
+
+
+
+
+    /* PAGINA TALLER */
+
+    .main_taller {
+        width: 100%;
+        background: rgb(179, 160, 147);
+        background: linear-gradient(180deg, rgba(179, 160, 147, 1) 84%, rgba(255, 255, 255, 1) 95%);
+    }
+
+    .main_taller_informacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        margin-left: 150px;
+        max-height: 400PX;
+        padding: 110px;
+        padding-top: 70px;
+        background: rgb(179, 177, 147);
+        background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+        color: #0e1102;
+
+
+    }
+
+
+    .main_taller_descripcion {
+        width: 60%;
+        margin-left: 150px;
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .Conteiner_carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: none;
+        width: 500px;
+        height: 500px;
+        margin-left: 400px;
+
+    }
+
+    .Calendario {
+        background: rgb(179, 177, 147);
+        background: linear-gradient(180deg, rgba(179, 177, 147, 1) 50%, rgba(255, 255, 255, 1) 95%);
+        color: #0a141d;
+        padding-top: 30px;
+    }
+
+    .calendario_titulo {
+
+        margin-top: 20px;
+        font-size: 60px;
+        text-align: center;
+        color: black;
+    }
+
+    .Calendario_horarios_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .Calendario_horarios_1 u {
+        color: rgb(191, 35, 35);
+
+    }
+
+    .Calendario_horarios_1 a i {
+        color: rgb(136, 31, 31);
+        margin-right: 10px;
+    }
+
+    .Calendario_horarios_2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .Calendario_horarios_2 u {
+        color: rgb(191, 35, 35);
+
+    }
+
+    .Calendario_horarios_2 a i {
+        color: rgb(136, 31, 31);
+        margin-right: 10px;
+    }
+
+    .Calendario_horarios_3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .Calendario_horarios_3 u {
+        color: rgb(191, 35, 35);
+
+    }
+
+    .Calendario_horarios_3 a i {
+        color: rgb(136, 31, 31);
+        margin-right: 10px;
+    }
+
+    .Calendario_horarios_4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .Calendario_horarios_4 u {
+        color: rgb(191, 35, 35);
+
+    }
+
+    .Calendario_horarios_4 a i {
+        color: rgb(136, 31, 31);
+        margin-right: 10px;
+    }
+
+    .Calendario_horarios_5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .Calendario_horarios_5 u {
+        color: rgb(191, 35, 35);
+
+    }
+
+    .Calendario_horarios_5 a i {
+        color: rgb(136, 31, 31);
+        margin-right: 10px;
+    }
+
+    /* PAGINA CONTACTO*/
+    .fondo_support {
+        background: rgb(179, 177, 147);
+        background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+    }
+
+    .main_support {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #0a141d;
+    }
+
+    .main_support_form h2 {
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+
+    .main_support_form p {
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .main_support_form a {
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 16px;
+        color: rgb(47, 45, 40);
+        font-weight: 700;
+    }
+
+    .main_support_form a i {
+        color: rgb(229, 75, 28);
+        margin-right: 10px;
+    }
+
+    .main_support_form {
+        padding-bottom: 0px;
+    }
+
+    .main_support_form form .campo,
+    textarea {
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid #22231E;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 10px;
+    }
+
+    .campo_textarea {
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+
+    .btn1 {
+        padding: 15px;
+        margin: 20px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background: orange;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all;
+    }
+
+    /* FOOTER */
+
+
+    .pie_pagina {
+        width: 100%;
+        background-color: #49443c;
+
+    }
+
+    .pie_pagina .group_1 {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+
+    }
+
+    .pie_pagina .group_1 .box figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .pie_pagina .group_1 .box figure img {
+        width: 250px;
+    }
+
+    .pie_pagina .group_1 .box h2 {
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .pie_pagina .group_1 .box p {
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+
+    .pie_pagina .group_1 .Red_social i {
+        display: inline-block;
+        text direction: none;
+        width: 25px;
+        height: 25px;
+        line height: 25px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #49443c;
+        text-align: center;
+        transition: all 300ms ease;
+
+    }
+
+    .pie_pagina .group_1 .Red_social i:hover {
+        color: rgb(94, 195, 197);
+    }
+
+    .pie_pagina .group_2 {
+        background-color: #49443c;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+
+    }
+
+    .pie_pagina .group_2 small {
+        font-size: 15px;
+    }
+
+    /* PAGINA VELAS */
+
+
+
+    .fondo_velas {
+        background: rgb(179, 177, 147);
+        background: linear-gradient(180deg, rgba(179, 177, 147, 1) 29%, rgba(255, 255, 255, 1) 58%);
+
+    }
+
+    .contenedor_velas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .velas_titulo {
+        font-size: 50px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: #121416;
+    }
+
+    .producto_caracola {
+        background-color: #d5cbc9;
+        margin: 10px;
+
+    }
+
+    .producto_caracola:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+
+    }
+
+    .producto_bubble {
+        background-color: #d5cbc9;
+        margin: 10px;
+    }
+
+
+    .producto_bubble:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+
+    }
+
+
+    .producto_minimal {
+        background-color: #d5cbc9;
+        margin: 10px;
+    }
+
+
+    .producto_minimal:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .contenedor_velas h3 {
+        display: flex;
+        justify-content: center;
+        color: #0a141d;
+        font-size: 20px;
+        margin: 10px;
+
+    }
+
+    .contenedor_velas p {
+        display: flex;
+        justify-content: space-around;
+        color: #0a141d;
+        font-size: 18px;
+        padding: 5px;
+
+    }
+
+    .contenedor_velas2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .producto_bajodelmar {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_bajodelmar:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_budha {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_budha:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+
+    }
+
+    .producto_glaciar {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_glaciar:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+
+    }
+
+    .contenedor_velas2 h3 {
+        display: flex;
+        justify-content: center;
+        color: #0a141d;
+        font-size: 20px;
+        margin: 10px;
+
+    }
+
+    .contenedor_velas2 p {
+        display: flex;
+        justify-content: space-around;
+        color: #0a141d;
+        font-size: 18px;
+        padding: 5px;
+
+    }
+
+    .contenedor_velas3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .producto_huevo {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_huevo:hover {
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_madera {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_madera:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_elefante {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .producto_elefante:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .contenedor_velas3 h3 {
+        display: flex;
+        justify-content: center;
+        color: #0a141d;
+        font-size: 20px;
+        margin: 10px;
+
+    }
+
+    .contenedor_velas3 p {
+        display: flex;
+        justify-content: space-around;
+        color: #0a141d;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .contenedor_velas4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contenedor_velas4 h3 {
+        display: flex;
+        justify-content: center;
+        color: #0a141d;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .contenedor_velas4 p {
+        display: flex;
+        justify-content: space-around;
+        color: #0a141d;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .producto_lights {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_lights:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_hojas {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_hojas:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_green {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+
+    .producto_hojas:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .contenedor_velas5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contenedor_velas5 h3 {
+        display: flex;
+        justify-content: center;
+        color: #0a141d;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .contenedor_velas5 p {
+        display: flex;
+        justify-content: space-around;
+        color: #0a141d;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .producto_nature {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_nature:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_forest {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_forest:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .producto_white {
+        background-color: #d5cbc9;
+        margin-top: 10px;
+    }
+
+    .producto_white:hover {
+        background-color: #93a08a;
+        transform: scale(1.2);
+        background-color: #93a08a;
+        border-radius: 30px;
+        transition: all 2s;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    @media screen and (max-width:800px) {
+        .pie_pagina .group_1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+        }
+
+        . .main_quienessomos_conteiner {
+            width: 90%;
+        }
+    }
+
+    /* Inicio de las animaciones */
+    @keyframes slow {
+
+        0%,
+        100% {
+            transform: translate(-25px, -25px);
+        }
+
+        25% {
+            transform: translate(25px, -25px);
+        }
+
+        50% {
+            transform: translate(25px, 25px);
+        }
+
+        75% {
+            transform: translate(-25px, 25px);
+        }
+    }
+
+}
